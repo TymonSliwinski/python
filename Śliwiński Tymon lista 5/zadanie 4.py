@@ -15,6 +15,8 @@ def encrypt(phrase):
     return " ".join(crypt)          # zwróć listę zaszyfrowanych słów oddzieloną spacją
 
 
+print(encrypt("To jest mój tekst"))
+
 print(encrypt("Ala ma kota"))
 
 print(encrypt("\nszedł za twym tronem - tuż - blisko,"
